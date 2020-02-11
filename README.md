@@ -4,7 +4,7 @@
 
 
 
-####Boolean类型的工厂方法valueOf
+#### Boolean类型的工厂方法valueOf
 
 ```java
 System.out.println(Boolean.valueOf("1"));
