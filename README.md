@@ -32,7 +32,7 @@ return (s != null) && s.equalsIgnoreCase("true");
 
 这4种对象的值比较，当值在 [-128 , 127] 时，使用的是缓存对象。因此
 
-```
+```java
 Integer i1 = Integer.valueOf("12");
 Integer i2 = Integer.valueOf("12");
 ```
@@ -43,7 +43,7 @@ Integer i2 = Integer.valueOf("12");
 
 但是对于通过new方式创建的包装类就没有这个缓存
 
-```
+```java
 Integer i1 = new Integer("12");
 Integer i2 = new Integer("12");
 ```
